@@ -41,7 +41,7 @@ st.space(size='small')
 
 if(st.button('Run BMI (Body Mass Index) Calculation')):
 
-    st.write('your bmi Index is : ',bmi,'KG/m^2')
+    st.write('your bmi Index is : ',round(bmi,ndigits=2),'KG/m^2')
 
     if bmi <16:
         st.error('You are extremly underweight')
